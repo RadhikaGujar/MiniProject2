@@ -17,9 +17,9 @@ class DeleteUserTest extends TestCase
     public function testDeleteUser()
     {
         $userdelete= new User();
-        $userdelete->name = 'abcd';
-        $userdelete->email = 'abcd@xyz.com';
-        $userdelete->password = '123456';
+        $userdelete->name = 'Radhika';
+        $userdelete->email = 'radhikagujar13@gmail.com';
+        $userdelete->password = 'radhika13';
         $userdelete->save();
         $this->assertTrue($userdelete->delete());
 
